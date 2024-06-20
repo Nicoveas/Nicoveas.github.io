@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #fff8e1, #ffe4e1); /* Colores champán */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #dc143c; /* Rojo carmesí */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    color: #fff8e1; /* Champán */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #dc143c; /* Rojo carmesí */
+}
+
+section {
+    padding: 20px;
+}
+
+.contenedor-fotos-textos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foto-texto {
+    background: #fff8e1; /* Champán */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    transition: transform 0.2s;
+    border: 2px solid #dc143c; /* Rojo carmesí */
+}
+
+.foto-texto:hover {
+    transform: scale(1.05);
+}
+
+.foto-texto img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #dc143c; /* Rojo carmesí */
+}
+
+.foto-texto p {
+    padding: 15px;
+    text-align: left;
+    font-size: 1rem;
+    background-color: #fff8e1; /* Champán */
+    border-radius: 0 0 15px 15px;
+    color: #333;
+}
+
+footer {
+    background-color: #dc143c; /* Rojo carmesí */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    color: #fff8e1; /* Champán */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer p span {
+    font-size: 1.5rem;
+    font-family: 'Great Vibes', cursive;
+    color: #fff8e1;
+}
